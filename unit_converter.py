@@ -7,7 +7,7 @@ conversion_factors = {
 }
 
 # Streamlit UI
-st.title("Simple Unit Converter (No Pint)")
+st.title("Simple Unit Converter ")
 
 category = st.selectbox("Choose category:", conversion_factors.keys())
 from_unit = st.selectbox("Convert from:", conversion_factors[category].keys())
